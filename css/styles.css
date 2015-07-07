@@ -56,14 +56,34 @@ header .logo{
 	top: 50%;
 }
 
+.post-actions{
+	margin: 5px;
+}
+
+.comment-form .form-group{
+	width: 90%
+}
+
+.comment-form input[type="text"] {
+	width: 100%;
+}
+
 .comment-avatar img{
 	width: 40px;
 	margin-right: 5px;
 }
 
+.comment {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 3px;
+	margin: 5px 0;
+	overflow: auto;
+	width: 100%;
+}
 .friends li {
 	list-style: none;
-	padding: 5px;
+	padding: 0 5px;
 	display: inline;
 	float: left;
 }
@@ -72,3 +92,50 @@ header .logo{
 	width: 55px;
 }
 
+.groups img{
+	width: 80px;
+	float: left;
+	margin-right: 15px;
+}
+
+.group-item{
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #ccc;
+	overflow: auto;
+}
+
+.members .member-row{
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+.members img{
+	margin-bottom: 5px;
+}
+
+.profile ul{
+	margin-top: 30px;
+}
+
+.profile li{
+	list-style: none;
+	line-height: 1.9em;
+}
+
+footer{
+	background: #f4f4f4;
+	height: 90px;
+	color: #033769;
+	font-weight: bold;
+	padding-top: 40px;
+	margin-top: 30px;
+	border-top: 7px solid #033769;
+}
+
+@media(min-width: 991px){
+	.members p{
+		padding-top: 40px;
+	}
+}
